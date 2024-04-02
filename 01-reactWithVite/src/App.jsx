@@ -1,10 +1,13 @@
-import coffeeMade from "./coffee";
+import CoffeeMade from "./coffee";
 
 function App() {
-  <coffeeMade />
+  
   return (
+    <>
+    <CoffeeMade />
     <h1>Hello, This is Mayank</h1>
-  );
+  </>
+  );  
 }
 
 export default App
